@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    background-color: rgb(200, 200, 200);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(27, 28, 29, 0.9);
+    min-height: 69px;
+    position: relative;
+    margin-top: 0px;
+    border-radius: 4px;
+    align-items: center;
+    align-content: baseline;
+    width: auto;
+    font-family: 'Merriweather', serif;
+
+
+}
+header img{
+    display: flex;
+    align-content:flex-start;
+    max-height: 50px;
+    position: relative;
+    left: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+img:hover{
+    opacity: 0.8;
+}
+.path li::before{
+    content: "| ";
+    color: darkgray;
+}
+
+.path li{
+    display: inline;
+margin-right: 20px;
+transition: 0.4s;
+font-size: 20px;
+
+}
+li:hover{
+
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color:azure;
+    word-spacing: 3px;
+    transition: 1s;
+
+}
+.mission{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/mission.jpeg);
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    margin: 5px 10px 0px 10px;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 4px;
+}
+.mission h4, .mission h2{
+    width:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    word-spacing: 0.5em;
+
+}
+.mission h2,
+.tom h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+    font-weight: 700;
+    align-content: center;
+    
+    
+
+}
+h4{
+    font-family: 'Tiro Tamil', serif;
+    line-height: 2.5em;
+    font-size: 19px;
+}
+#missionh{
+    position: relative;
+margin: auto 0;
+flex-wrap: wrap;
+flex-direction: column;
+display: flex;
+}
+
+
+.tom{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    word-spacing: 1em;
+}
+.tom h2{
+    text-align: center;
+    font-size: 50px;
+}
+.tom h4{
+margin-bottom: 30px;
+letter-spacing: 0.2em;
+line-height: 50%;
+}
+#tm{
+    width: 300px;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    border-radius: 4px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px 10px 10px 10px;
+
+
+
+}
+
+.stombe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+
+}
+
+
+.stombe p{
+    position: absolute;
+    font-size: 20px;
+   
+
+
+}
+.stombe a{
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.layer{
+    height: 215%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+    
+  }
+  .based-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+
+  }
+  
+  .layer:hover{
+  background: transparent;
+
+  }
+  .layer h3{
+    width: 75%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+
+  }
+  .layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+    
+  }
+  
+  .location{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+   
+    position: relative; 
+    top: 50px;
+    width: auto;
+    border-radius: 4px;
+    background-size: auto;
+    margin: 5px 10px 0px 10px;
+
+    overflow: hidden;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/location.jpeg);
+  }
+  @media(max-width: 900px){
+    .location{
+        background-size: cover;
+        justify-content: space-around;
+        flex-direction: column;
+        display: flex;
+    }
+  }
+  .box{
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    margin: 1px auto;
+    align-content: center;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    flex-direction: row;
+    padding: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    border-radius: 4px;
+    color: rgb(14, 14, 14);
+}
+@media(max-width: 700px){
+    .box{
+        top: 0px;
+    }
+  
+}
+  #top{
+    color:rgb(225, 225, 225);
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+    margin: 0 auto;
+  }
+.box h1{
+    font-family: 'Lobster', cursive;
+}
+.box p{
+    font-family: 'Handlee', cursive;
+
+}
+.box:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.gqi{
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+.gqi h4{
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 0.3em;
+
+}
+.gqi p{
+font-size: 18px;
+letter-spacing: 0.3em;
+font-family: 'Handlee', cursive;
+
+}
+.CR{
+    position: relative;
+    top: 150px;
+    margin-left: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+
+}
+.CR i{
+display: inline-flex;
+justify-content: center;
+
+    color: rgb(114, 114, 114);
+}
