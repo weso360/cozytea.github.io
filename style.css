@@ -212,10 +212,11 @@ line-height: 50%;
   .location{
     height: 500px;
     display: flex;
+
     justify-content: center;
    
     position: relative; 
-    top: 50px;
+    top: 70px;
     width: auto;
     border-radius: 4px;
     background-size: auto;
@@ -224,7 +225,7 @@ line-height: 50%;
     overflow: hidden;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./location.jpeg);
   }
-  @media(max-width: 900px){
+  @media(max-width: 1200px){
     .location{
         background-size: cover;
         justify-content: space-around;
