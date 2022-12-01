@@ -58,7 +58,7 @@ a{
 
 }
 .mission{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/mission.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./mission.jpeg);
     display: flex;
     justify-content: center;
     height: 700px;
@@ -222,7 +222,7 @@ line-height: 50%;
     margin: 5px 10px 0px 10px;
 
     overflow: hidden;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/location.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./location.jpeg);
   }
   @media(max-width: 900px){
     .location{
